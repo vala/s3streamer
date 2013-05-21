@@ -33,7 +33,7 @@ def download
 end
 ```
 
-It can also accept a Paperclip::Attachment object. This method will
+It can also accept a `Paperclip::Attachment` object. This method will
 automatically add "content_type=xxx/xxx" to the Content-Disposition HTTP
 response header.
 
