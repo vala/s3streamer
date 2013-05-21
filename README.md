@@ -42,6 +42,7 @@ def download
   model = Model.find(params[:id])
   stream_file(model.file)
 end
+```
 
 There also are options that you can pass :
 
